@@ -17,4 +17,14 @@ public class Counter {
         System.out.println(sum(12, 1));
         System.out.println(sum(-3, 2));
     }
+
+    public static int sumByEven(int start, int finish) {
+        int sum = 0;
+        for (int i = start; i < finish; i++) {
+            if (i % 2 == 0) {
+                sum = sum + i;
+            }
+        }
+        return sum;
+    }
 }
