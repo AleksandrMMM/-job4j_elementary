@@ -6,7 +6,6 @@ import ru.job4j.condition.Point;
 
 import static org.assertj.core.api.Assertions.withPrecision;
 
-
 public class PointTests {
 
     @Test
