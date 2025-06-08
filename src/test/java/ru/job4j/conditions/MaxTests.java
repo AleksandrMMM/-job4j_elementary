@@ -5,7 +5,6 @@ import ru.job4j.condition.Max;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-
 public class MaxTests {
 
     @Test
@@ -79,5 +78,4 @@ public class MaxTests {
         int result = Max.max(5, 5, 5, 5);
         assertEquals(5, result);
     }
-
 }
